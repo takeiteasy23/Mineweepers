@@ -43,6 +43,7 @@ namespace Minesweeper2
             lblTimer.Text = counter.ToString();
             if (counter == 999)
             {
+                counter = 1000;
                 MessageBox.Show("Time Over");
                 reset();
             }
