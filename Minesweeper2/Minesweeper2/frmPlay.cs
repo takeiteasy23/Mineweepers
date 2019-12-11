@@ -185,7 +185,7 @@ namespace Minesweeper2
                 }
             }
             game.IniIsMine(CountMine, numOfMine);
-            game.IniIsMine(CountMine, numOfMine);
+            
             GC.Collect(2, GCCollectionMode.Forced);
         }
 
