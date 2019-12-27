@@ -108,6 +108,7 @@
             this.Controls.Add(this.lblMine);
             this.Controls.Add(this.lblFlag);
             this.Controls.Add(this.lblTimer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmPlay";
             this.Text = "Play";
             this.ResumeLayout(false);
